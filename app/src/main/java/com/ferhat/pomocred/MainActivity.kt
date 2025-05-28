@@ -20,7 +20,13 @@ class MainActivity : AppCompatActivity() {
             insets
         }
 
-        var viewCoin = layoutInflater.inflate(R.layout.coin_info, bin.frameCoin, false)
+        var viewCoin = layoutInflater.inflate(R.layout.layout_coin_info, bin.frameCoin, false)
         bin.frameCoin.addView(viewCoin)
+
+        var viewTimer = layoutInflater.inflate(R.layout.layout_timer, bin.frameTimer, false)
+        bin.frameTimer.addView(viewTimer)
+
+        var viewFooter = layoutInflater.inflate(R.layout.layout_footer, bin.frameFooter, false)
+        bin.frameFooter.addView(viewFooter)
     }
 }
