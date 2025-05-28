@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">PomoCred</string>
+    <string name="zero">0</string>
+    <string name="coin_credits">Coin credits</string>
+</resources>
